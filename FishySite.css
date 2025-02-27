@@ -1,6 +1,7 @@
 body {
     background-color: #000000;
     font-family: Arial, sans-serif;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -87,4 +88,11 @@ hr {
     color: white;
     padding: 10px;
     z-index: -50;
+}
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
 }
